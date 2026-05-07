@@ -20,7 +20,7 @@ RASTER_PATHS = {
 }
 
 ###INTRO
-col1, col2, col3 = st.columns(3, vertical_alignment="center")
+col1, col2 = st.columns([1,3], vertical_alignment="center")
 
 with col2:
     st.title("Cover Crop Tool")
