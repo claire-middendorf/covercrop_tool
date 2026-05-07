@@ -91,7 +91,7 @@ if uploaded_file is not None:
             column_config={
                 "Latitude":  st.column_config.NumberColumn("Latitude",  format="%.6f"),
                 "Longitude": st.column_config.NumberColumn("Longitude", format="%.6f"),
-            }
+            } )
     
     with st.expander("Map of Input CSV (max 50 points)"):
         st.map(data = user_data.head(50), latitude="Latitude", longitude="Longitude", size=4)
