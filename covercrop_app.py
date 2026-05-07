@@ -20,7 +20,14 @@ RASTER_PATHS = {
 }
 
 ###INTRO
-st.title("Cover Crop Tool")
+col1, col2 = st.columns(2)
+
+with col2:
+    st.title("Cover Crop Tool")
+
+with col1:
+    st.image("science_assessment_logo.png") 
+
 st.write("This is a draft tool for Component 2 of the Indiana Science Assessment!")
 
 def text_box(text, color):
