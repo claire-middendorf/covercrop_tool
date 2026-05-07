@@ -26,7 +26,7 @@ with col2:
     st.title("Cover Crop Tool")
 
 with col1:
-    st.image("science_assessment_logo.png") 
+    st.image("science_assessment_logo.png", width=250) 
 
 st.write("This is a draft tool for Component 2 of the Indiana Science Assessment!")
 
