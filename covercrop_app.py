@@ -33,7 +33,7 @@ st.write("This is a draft tool for Component 2 of the Indiana Science Assessment
 def text_box(text, color):
     st.markdown(f"""
         <div style="
-            background-color: {color};
+            border-left: 5px solid {color};
             padding: 15px;
             border-radius: 5px;
             min-height: 120px;
