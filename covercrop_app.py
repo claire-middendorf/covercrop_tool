@@ -26,14 +26,14 @@ with col2:
     st.title("Cover Crop Tool")
 
 with col1:
-    st.image("science_assessment_logo.png", width=250) 
+    st.image("science_assessment_logo.png", width=100) 
 
 st.write("This is a draft tool for Component 2 of the Indiana Science Assessment!")
 
 def text_box(text, color):
     st.markdown(f"""
         <div style="
-            border-left: 5px solid {color};
+            border-left: 10px solid {color};
             padding: 15px;
             border-radius: 5px;
             min-height: 120px;
