@@ -49,13 +49,13 @@ def text_box(text, color):
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    text_box("STEP 1: Upload your input CSV", "#185AA3")
+    text_box("STEP 1: Upload your input CSV", "#2459BF")
 
 with col2:
-    text_box("STEP 2: Click the 'Calculate Nutrient Loads and Reductions' button ", "#36B5C9")
+    text_box("STEP 2: Click the 'Calculate Nutrient Loads and Reductions' button ", "#34703E")
 
 with col3:
-    text_box("STEP 3: View results and download the output CSV", "#4E9995")
+    text_box("STEP 3: View results and download the output CSV", "#93C1C9")
 
 st.divider()
 
