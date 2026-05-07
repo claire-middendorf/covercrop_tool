@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#2459BF"        # Accent color (buttons, sliders, etc.)
+backgroundColor = "#F7F5F2"     # Main background
+secondaryBackgroundColor = "#34703E"  # Sidebar and widget backgrounds
+textColor = "#262730"           # Main text color
+font = "sans serif"             # "sans serif", "serif", or "monospace"
