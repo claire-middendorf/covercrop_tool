@@ -22,11 +22,11 @@ RASTER_PATHS = {
 ###INTRO
 col1, col2 = st.columns(2)
 
-with col2:
+with col1:
     st.title("Cover Crop Tool")
 
-with col1:
-    st.image("science_assessment_logo.png", width=100) 
+with col2:
+    st.image("science_assessment_logo.png", width=200) 
 
 st.write("This is a draft tool for Component 2 of the Indiana Science Assessment!")
 
